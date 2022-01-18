@@ -1,0 +1,28 @@
+a = int(input("Angka 1 = "));
+b = int(input("Angka 2 = "));
+
+class kalkulator:
+ def  __init__(self,a,b):
+        self.a = a
+        self.b = b
+        
+ def tambah(self,a,b):
+        return self.a + self.b
+    
+ def kurang(self,a,b):
+        return self.a - self.b
+    
+ def bagi(self,a,b):
+        return self.a // self.b
+    
+ def kali(self,a,b):
+        return self.a * self.b
+    
+   
+    
+cal = kalkulator(a,b)
+    
+print("Hasil Penjumlahan : " , cal.tambah(a,b))
+print("Hasil Pengurangan : " , cal.kurang(a,b))
+print("Hasil Pembagian : " , cal.bagi(a,b))
+print("Hasil Perkalian : " , cal.kali(a,b))
