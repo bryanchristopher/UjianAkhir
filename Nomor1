@@ -1,0 +1,11 @@
+p = int(input("Panjang  :  "))
+l = int(input("Lebar    :  "))
+
+def fungsi(p, l):
+    Keliling = ((2 * p) + (2 * l))
+    luas = (p * l)
+    print("\n")
+    print("Keliling : ", Keliling)
+    print("Luas     : ", luas)
+    
+fungsi(p, l)
