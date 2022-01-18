@@ -1,0 +1,16 @@
+class biodata:
+    nama = None
+alamat = None
+nim = None
+
+
+m1 = biodata()
+m1.nama = str(input("Nama  :  "))
+m1.alamat = str(input("Alamat  :  "))
+m1.nim = int(input("NIM  :  "))
+
+print("-------------------------")
+print("BIODATA")
+print("Nama : ", m1.nama)
+print("Alamat : ", m1.alamat)
+print("NIM : ", m1.nim)
